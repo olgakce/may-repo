@@ -1,0 +1,634 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+body {
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona 2/pictures/site-banner.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    background-position-y: 10%;
+    font-family: "Open Sans Condensed";
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+   
+    
+}
+#home {
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+    position: relative;
+    margin-bottom: 10%;
+    margin-top: 1%;
+    opacity: 0.95;
+}
+
+nav {
+    text-align: center;
+    z-index: 2;
+    position: fixed;
+    margin-left: 74%;
+    margin-top: 15em;
+    width: 40em;
+    transform: rotate(90deg);
+
+}
+nav li {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 30px;
+    color: #FFF;
+    text-shadow: 1px 1px rgb(102, 102, 104);
+    list-style: none;       
+}
+nav a:link {
+    color: #FFF;
+    text-decoration:none;
+}
+nav a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #B3B0C4;
+}
+
+
+h1 {
+    font-size: 9em;
+    font-weight: 200;
+    font-family: "Archivo Black"; 
+    margin-top: 0.1em;
+    margin-left: 0.35em;
+    color: #FFF;
+    text-shadow: 1px 1px #B3B0C4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    border-left: 1px solid #FFF;
+    padding-left: 50px;
+}
+h4 {
+    font-size: 2em;
+    margin-left: 3.40em;
+    text-shadow: 1px 1px #B3B0C4;
+    color: #FFF;
+    font-weight: 100;
+    padding-top: -5em;
+}
+h5 {
+    font-size: 5em;
+    color: #FFF;
+    letter-spacing: 2px;
+    margin-left: 0.6em;
+    border-left: 1px solid #FFF;
+    padding-left: 50px;
+    text-shadow: 1px 1px #B3B0C4;
+}
+main {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    z-index: 1;
+    margin: 0 auto;
+     
+}
+#about {
+    height: auto;
+    background-color: rgba(188,	201,	197, 0.97);
+    display: inline-block;
+    padding-bottom: 3em;
+    position: relative;
+    border-top: 2px solid #25282A;
+
+   
+}
+#about h2 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: #25282A;
+}
+#about p{
+    width: 90%;
+    text-align: justify;
+    margin-left: 2em;
+    padding-top: 2em;
+    padding-left: 50px;
+    font-size: 1.5em;
+    border-left: 1px solid #25282A;
+    color: #25282A;
+}
+.about2 {
+    height: auto;
+    background-color: rgba(188,	201,	197, 0.97);
+    display: inline-block;
+    padding-bottom: 3em;
+    position: relative;
+    border-top: 2px solid #25282A;
+  
+}
+
+.about2 p{
+    width: 90%;
+    text-align: justify;
+    margin-left: 2em;
+    padding-top: 2em;
+    padding-left: 50px;
+    font-size: 1.5em;
+    border-left: 1px solid #25282A;
+    color: #25282A;
+}
+
+#banner {
+    margin: 0 auto;
+    padding-top: 3em;
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona 2/pictures/may6.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 600px;
+}
+#banner h2 {
+    text-align: center;
+    font-size: 8.3em;
+    color: #E5E1E6;
+    text-shadow: 1.2px 1.2px #B3B0C4;
+}
+#banner2 {
+    margin: 0 auto;
+    padding-top: 3em;
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona 2/pictures/may12.jpg");
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 600px;
+}
+#banner2 h2 {
+    text-align: center;
+    font-size: 8.3em;
+    color: #E5E1E6;
+    text-shadow: 1.2px 1.2px #B3B0C4;
+}
+#banner3 {
+    margin: 0 auto;
+    padding-top: 3em;
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona 2/pictures/may13.jpg");
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 600px;    
+}
+#banner3 h2 {
+    text-align: center;
+    font-size: 8.3em;
+    color: #E5E1E6;
+    text-shadow: 1.2px 1.2px #B3B0C4;
+}
+#stores {
+   
+    width: 100%;
+    height: auto;
+    border-top: 2px solid black;
+    margin-bottom: 1em;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+#stores h3 {
+    font-size: 3em;
+    color: #E5E1E6;
+    text-align: center;
+    text-transform: uppercase;
+}
+#katowice {
+    width: 100%;
+    height: 820px;
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona 2/pictures/store3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 90%;
+    margin: 0 auto;
+    padding-top: 5em;
+    z-index: 2;
+}
+#katowice h2 {
+    font-size: 10em;
+    color: rgba(255, 254, 255, 0.7);
+    text-align: center;
+    text-shadow: 1.2px 1.2px rgba(204, 203, 203, 0.884);
+    margin-top: 1.5em;
+    
+}
+
+.katowice-about {
+    width: 100%;
+    height: auto;
+    padding: 3em;
+    background-color: rgba(188,	201,	197, 0.97);
+    border-top: 2px solid black;
+    color: #25282A;
+    font-size: 2em;
+    text-align: justify;
+    
+    
+}
+iframe {
+    height: 400px;
+    width: 100%;
+    padding-top: 1.5em;
+}
+adress {
+    font-size: 1.2em;
+    color: #25282A;
+    text-align: left;
+    display: inline-block;
+    
+    
+}
+span {
+    font-size: 1.8em;
+}
+
+#warsaw{
+    width: 100%;
+    height: 700px;
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona 2/pictures/store4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 2em;
+    
+}
+#warsaw h2 {
+    font-size: 10em;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    text-shadow: 1.2px 1.2px rgba(204, 203, 203, 0.884);
+    
+}
+.warsaw-about {
+    width: 100%;
+    height: auto;
+    padding: 3em;
+    background-color: rgba(188,	201,	197, 0.97);
+    border-top: 2px solid black;
+    color: #25282A;
+    font-size: 2em;
+    text-align: justify;
+    margin-bottom: 20em;
+}
+#map2 {
+    width: 100%;
+    height: 400px;
+    margin-top: 2em;
+}
+footer {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: rgba(188,	201,	197, 0.9);
+    border-top: 2px solid black;
+    line-height: 0.5em;
+    padding-top:0.1em;
+    padding-bottom: 0.1em;
+    
+}
+footer h2 {
+    font-size: 3em;
+    color:#25282A;
+    text-align: center;
+}
+footer p {
+    color:#25282A;
+    text-align: center;
+    font-size: 2em;
+}
+footer a:visited,
+       a:link {
+    text-decoration: none;
+    color:#25282A;
+}
+footer a:hover {
+color: rgb(88, 88, 88)
+}
+footer span {
+    font-size: 0.5em;
+}
+/*RWD for tablets*/
+
+@media only screen and (max-width: 750px) {
+header {
+    margin-bottom: 50%;
+}   
+h1 {
+    font-size: 4em;
+    margin-left: 0.75em;
+    padding-top: 3em;
+    border: none;
+}  
+h4 {
+    font-size: 1.5em;
+    margin-left: 2.5em;
+    padding-top: 1em;
+}
+h5 {
+    font-size: 2em;
+    margin-left: 1.5em;
+    margin-bottom: 7em;
+}
+nav {
+    transform: rotate(-360deg);
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-top: 1em;
+    height: 15%;
+    margin-top: -3em;
+    background-color: rgba(118, 129, 123, 0.7);
+    width: 100%;
+    
+    }
+nav li {
+    font-size: 1em;
+    float: center;
+}
+#about p {
+    font-size: 1.1em;
+    border: none;
+    padding-left: 0;
+}
+#about h2 {
+    font-size: 2em;
+}
+.about2 p {
+    font-size: 1.1em;
+    border: none;
+    padding: 0;
+
+}
+#banner h2 {
+    font-size: 5em;
+    padding-top: 1.5em;
+}
+#banner2 h2 {
+    font-size: 5em;
+    padding-top: 1.5em;
+}
+#banner3 h2 {
+    font-size: 5em;
+    padding-top: 1.5em;
+}
+#stores h3 {
+    font-size: 2.5em;
+    color: #E5E1E6;
+}
+#katowice {
+    height: 60%;
+}
+#katowice h2 {
+    font-size: 5em;
+    padding-top: 1em;
+}
+.katowice-about {
+    font-size: 1em;
+}
+#warsaw {
+    height: 60%;
+}
+#warsaw h2 {
+    font-size: 5em;
+    padding-bottom: 0.5em;
+}
+.warsaw-about {
+    font-size: 1em;
+}
+footer {
+    font-size: 0.7em;
+}
+}
+/* RWD for mobiles */
+@media only screen and (max-width: 480px) {
+    header {
+        margin-bottom: 80%;
+    }   
+    h1 {
+        font-size: 2.5em;
+        margin-left: 0.2em;
+        padding-left: 0.3em;
+        padding-top: 7em;
+        border: none;
+    }
+    h4 {
+        margin-left: 1em;
+    }
+    h5 {
+        font-size: 2em;
+        padding-left: 0.3em;
+        margin-left: 0.2em;
+        margin-bottom: 7em;
+        border: none;
+    }
+    nav {
+        transform: rotate(-360deg);
+        height: 16%;
+        background-color: rgba(118, 129, 123, 0.7);
+        width: 100%;
+        }
+    nav li {
+        font-size: 0.7em;
+        padding-left: 0.4px;
+        margin: 0 auto;
+        float:center;
+    }
+    #about p {
+        font-size: 1em;
+        border: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+    #about h2 {
+        font-size: 1em;
+        padding-top: 3em;
+    }
+    .about2 p {
+        font-size: 1em;
+        border: none;
+        padding: 0;
+        margin: 0 auto;
+    
+    }
+    #banner {
+        height: 30%;
+    }
+    #banner h2 {
+        font-size: 3em;
+        padding-bottom: 1.5em;
+        margin-top: 0.1em;
+    }
+    #banner2 {
+        height: 30%;
+    }
+    #banner2 h2 {
+        font-size: 3em;
+        padding-bottom: 1.5em;
+        margin-top: 0.1em;
+    }
+    #banner3 {
+        height: 30%;
+    }
+    #banner3 h2 {
+        font-size: 3em;
+        padding-bottom: 1.5em;
+        margin-top: 0.1em;
+    }
+    .about2 {
+        padding-top: 1.5em;
+    }
+    #stores h3 {
+        font-size: 2em;
+        color: #E5E1E6;
+        padding-top: 3em;
+        
+      
+    }
+    #katowice {
+        height: 70%;
+    }
+    #katowice h2 {
+        font-size: 4em;
+        padding-top: 1em;
+    }
+    .katowice-about {
+        font-size: 1em;
+    }
+    #warsaw {
+        height: 80%;
+        padding: 3em;
+    }
+    #warsaw h2 {
+        font-size: 4em;
+        padding-bottom: 0.5em;
+    }
+    .warsaw-about {
+        font-size: 1em;
+    }
+    footer {
+        font-size: 0.55em;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    header {
+        margin-bottom: 50%;
+    }   
+    h1 {
+        font-size: 4em;
+        margin-left: 0.2em;
+        padding-top: 6em;
+        border: none;
+    }  
+    h4 {
+        font-size: 1.5em;
+        margin-left: 2.5em;
+        padding-top: 1em;
+    }
+    h5 {
+        font-size: 2em;
+        margin-left: 0.3em;
+        margin-bottom: 7em;
+        border: none;
+    }
+    nav {
+        transform: rotate(-360deg);
+        margin: 0 auto;
+        padding-top: 1em;
+        height: 15%;
+        margin-top: -3em;
+        background-color: rgba(118, 129, 123, 0.7);
+        width: 100%;
+        
+        }
+    nav li {
+        font-size: 2em;
+        float: center;
+    }
+    main {
+        width: 100%;
+    }
+    #about p {
+        font-size: 1.1em;
+        border: none;
+        padding-left: 0;
+    }
+    #about h2 {
+        font-size: 2em;
+    }
+    .about2 p {
+        font-size: 1.1em;
+        border: none;
+        padding: 0;
+    
+    }
+    #banner h2 {
+        font-size: 5em;
+        padding-top: 1.5em;
+    }
+    #banner2 h2 {
+        font-size: 5em;
+        padding-top: 1.5em;
+    }
+    #banner3 h2 {
+        font-size: 5em;
+        padding-top: 1.5em;
+    }
+    #stores h3 {
+        font-size: 2.5em;
+        color: #E5E1E6;
+    }
+    #katowice {
+        height: 60%;
+    }
+    #katowice h2 {
+        font-size: 5em;
+        padding-top: 1em;
+    }
+    .katowice-about {
+        font-size: 1em;
+    }
+    #warsaw {
+        height: 60%;
+    }
+    #warsaw h2 {
+        font-size: 5em;
+        padding-bottom: 0.5em;
+    }
+    .warsaw-about {
+        font-size: 1em;
+    }
+    footer {
+        font-size: 0.7em;
+    }
+       
+}
